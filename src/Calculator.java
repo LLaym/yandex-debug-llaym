@@ -5,6 +5,7 @@ public class Calculator {
             case "+":
                 return first + second;
             case "-":
+                System.out.println("новое изменение");
                 return first - second;
             case "/":
                 return first / second;
