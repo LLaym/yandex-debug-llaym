@@ -13,7 +13,6 @@ public class Main {
 
         System.out.println("Введите второе число");
         String secondArg = scanner.nextLine();
-        String newString = "some";
 
         Double result = calculator.calculate(Double.parseDouble(firstArg), Integer.parseInt(secondArg), action);
 
