@@ -14,7 +14,7 @@ public class Main {
         System.out.println("Введите второе число");
         String secondArg = scanner.nextLine();
 
-        Double result = calculator.calculate(Double.parseDouble(firstArg), Integer.parseInt(secondArg), action);
+        Integer result = calculator.calculate(Integer.parseInt(firstArg), Integer.parseInt(secondArg), action);
 
         System.out.println("Результат вычислений: " + result);
     }
